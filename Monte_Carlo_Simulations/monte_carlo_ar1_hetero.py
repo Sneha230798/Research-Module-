@@ -5,7 +5,7 @@
 import numpy as np
 import pandas as pd
 
-def generate_staggered_law_ar1_data(N, T, num_individuals, mean=0, std_dev=1):
+def generate_staggered_law_ar1_data_hetero(N, T, num_individuals, mean=0, std_dev=1):
     # Generate random white noise for each individual
     white_noise = np.random.normal(mean, std_dev, size=(N, num_individuals, T))
 
