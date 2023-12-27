@@ -3,7 +3,7 @@ import numpy as np
 import gzip
 
 # Specify the path to the compressed CSV file
-file_path = r'C:\Users\sneha\Downloads\cps_00006.csv.gz'
+file_path = r'C:\Users\Biswajit Palit\Downloads\cps_00006.csv.gz'
 
 def cps_data(file_path):
     # Use Pandas to read the compressed CSV file directly

@@ -66,3 +66,4 @@ def generate_staggered_law_ar1_data(N, T, rho, num_individuals, mean=0, std_dev=
 
    
     return data
+
