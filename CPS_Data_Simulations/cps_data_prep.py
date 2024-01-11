@@ -65,5 +65,7 @@ def cps_data(file_path):
 
     # Convert True and False to 1 and 0 in the specified columns
     df[boolean_columns] = df[boolean_columns].astype(int)
+
+    
     
     return df
